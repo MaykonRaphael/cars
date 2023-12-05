@@ -32,6 +32,15 @@ p {
   color: var(--transparent-white);
   font-size: 0.9375rem;
   margin-bottom: 1.875rem;
+  line-height: 1.5625rem;
+}
+
+a {
+  border: 2px solid var(--very-light-gray);
+  font-size: 0.9375rem;
+  padding: 0.75rem 2.5rem;
+  border-radius: 1.5625rem;
+  background: var(--very-light-gray);
 }
 
 section {
@@ -40,12 +49,26 @@ section {
 
 .sedans {
   background: var(--bright-orange);
+  border-radius: 8px 8px 0 0;
+}
+
+.sedans a {
+  color: var(--bright-orange);
 }
 
 .suvs {
   background: var(--dark-cyan);
 }
 
+.suvs a {
+  color: var(--dark-cyan);
+}
+
 .luxury {
   background: var(--very-dark-cyan);
+  border-radius: 0 0 8px 8px;
+}
+
+.luxury a {
+  color: var(--very-dark-cyan);
 }
