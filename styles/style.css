@@ -72,3 +72,35 @@ section {
 .luxury a {
   color: var(--very-dark-cyan);
 }
+
+@media(min-width: 920px) {
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    display: flex;
+    max-width: 57.5rem;
+  }
+
+  p {
+    margin-bottom: 5.25rem;
+  }
+
+  a:hover {
+    background: transparent;
+    color: var(--very-light-gray);
+    transition: 0.2s;
+  }
+
+  .sedans {
+    border-radius: 8px 0 0 8px;
+  }
+
+  .luxury {
+    border-radius: 0 8px 8px 0;
+  }
+}
