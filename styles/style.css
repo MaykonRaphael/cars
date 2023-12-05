@@ -23,20 +23,29 @@ body {
 h2 {
   font-family: 'Big Shoulders Display', sans-serif;
   text-transform: uppercase;
-  color: var(--white);
+  color: var(--very-light-gray);
   font-size: 2.5rem;
-  margin-bottom: 1.5rem;
+  margin-block: 1.875rem;
 }
 
 p {
   color: var(--transparent-white);
   font-size: 0.9375rem;
+  margin-bottom: 1.875rem;
 }
 
-.card {
+section {
   padding: 3rem;
 }
 
-.card img {
-  margin-bottom: 2.2rem;
+.sedans {
+  background: var(--bright-orange);
+}
+
+.suvs {
+  background: var(--dark-cyan);
+}
+
+.luxury {
+  background: var(--very-dark-cyan);
 }
